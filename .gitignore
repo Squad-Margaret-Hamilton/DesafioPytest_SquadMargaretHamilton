@@ -116,9 +116,11 @@ fabric.properties
 
 ### Python ###
 # Byte-compiled / optimized / DLL files
-__pycache__/
+__pycache__
 *.py[cod]
 *$py.class
+
+
 
 # C extensions
 *.so
@@ -227,7 +229,9 @@ ipython_config.py
 .pdm.toml
 
 # PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
-__pypackages__/
+
+
+
 
 # Celery stuff
 celerybeat-schedule
@@ -262,6 +266,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
 
 # pytype static type analyzer
 .pytype/
